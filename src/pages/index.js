@@ -1,0 +1,8 @@
+export { default as Home } from "./home/Home"
+export { default as Blog } from "./blog/Blog"
+export { default as About } from "./about/About"
+export { default as Courses } from "./courses/Courses"
+export { default as Contact } from "./contact/Contact"
+export { default as SignIn } from "./signIn/SignIn"
+export { default as SignUp } from "./signUp/SignUp"
+export { default as Registration } from "./reg/Registration"

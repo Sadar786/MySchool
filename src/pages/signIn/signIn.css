@@ -1,0 +1,69 @@
+/* signIn.css */
+
+.signIn-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    margin-top: 5rem;
+
+  }
+  
+  .signIn-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .signIn-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signIn-container label {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .signIn-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .buttonSign {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 600px) {
+    .signIn-container {
+      padding: 10px;
+    }
+  
+    .signIn-container h2 {
+      font-size: 20px;
+    }
+  
+    .signIn-container label {
+      font-size: 12px;
+    }
+  
+    .signIn-container input {
+      padding: 6px;
+    }
+  
+    .signIn-container button {
+      padding: 6px 10px;
+    }
+  }
+  

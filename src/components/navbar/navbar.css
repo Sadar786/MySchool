@@ -1,0 +1,137 @@
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1vw 8vw;
+	align-items: center;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);
+	width: 100%;
+	background-color: #ebe9d6;
+}
+
+nav img {
+	width: 75px;
+	height: 75px;
+	cursor: pointer;
+}
+
+nav .navigation ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+nav .navigation ul li {
+	list-style: none;
+	margin-left: 30px;
+}
+
+nav .navigation ul li a {
+	text-decoration: none;
+	/* color: rgb(21, 21, 100); */
+	font-size: 16px;
+	font-weight: 500;
+	transition: 0.5s;
+}
+
+nav .navigation ul li a:hover {
+	color: #b5b299;
+}
+
+.navbar-responsive {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+ 	align-items: center;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);
+	width: 100%;
+	background-color: #ebe9d6;
+  }
+  
+
+
+.navbar-responsive{
+	display: none;
+}
+
+@media screen and (max-width: 990px) {
+	.navbar-responsive {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: flex-end;
+	  align-items:self-start;
+	  position: relative;
+}
+	
+	.navRes {
+	  display: flex;
+	  flex-direction: column !important;
+	  margin-top:4rem;
+	}
+	.navRes li {
+	  display: flex;
+	  justify-content: flex-end;
+	  text-align: left;
+	  align-items: left;
+	  margin-bottom: 1rem;
+	  
+	}
+	.navNDisplay {
+	  display: none;
+	}
+  }
+
+  .showIcon {
+	display: flex;
+	padding: 0.4rem 2rem;
+	background: rgb(75, 75, 103);
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	border-radius: 0.5rem;
+  }
+
+ /* Button Styles */
+ .navbar-nav {
+	display: flex;
+	align-items: center;
+  }
+  
+  .navbar-nav li {
+	list-style: none;
+	
+  }
+  
+  .navbar-nav li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 10px;
+  }
+  
+  .navbar-nav li a:hover {
+	color: #b5b299;
+  }
+  
+  .navbar-nav li .nav-button {
+	padding: 8px 16px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+	
+  }
+  
+  .navbar-nav li .nav-button:hover {
+	background-color: #0056b3;
+  }
+  
+
+  .scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}

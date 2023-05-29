@@ -1,0 +1,155 @@
+/* Courses */
+
+.course {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+p {
+	color: #757373;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.course-col {
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+
+h3 {
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.course-col:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700) {
+	.row {
+		flex-direction: column;
+	}
+}
+
+
+/* Facilities */
+.facilities {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.facilities-col {
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+.facilities-col img {
+	width: 100%;
+	border-radius: 10px;
+}
+.facilities-col p {
+	padding: 0;
+}
+.facilities-col h3 {
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+  .about-footer p{
+    color: aliceblue !important;
+  }
+
+  /* criteria.css */
+
+.criteria {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.criteria h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.criteria p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.criteria table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.criteria table th,
+.criteria table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.criteria table th {
+  font-weight: bold;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+.criteria ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.criteria li {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .criteria {
+    padding: 10px;
+  }
+
+  .criteria h2 {
+    font-size: 20px;
+  }
+
+  .criteria p {
+    font-size: 12px;
+  }
+
+  .criteria table th,
+  .criteria table td {
+    padding: 6px;
+  }
+
+  .criteria ul {
+    padding-left: 10px;
+  }
+}
